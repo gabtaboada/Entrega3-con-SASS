@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <title>Contacto | Comunicate con Traveling - Turismo</title>
+</head>
+
+<body>
+    <!-- Header - Logo + Menu de navegacion -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="../index.html"><img src="../assets/img/logo.png"
+                        alt="Logo traveling turismo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link ext-light" aria-current="page" href="../index.html">Inicio</a>
+                        <a class="nav-link ext-light" href="./nosotros.html">Nosotros</a>
+                        <a class="nav-link ext-light" href="./destinos.html">Destinos </a>
+                        <a class="nav-link ext-light" href="./promociones.html">Promociones</a>
+                        <a class="nav-link activo" href="./contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header><!-- Fin header -->
+    <main>
+        <div class="banner">
+            <img src="../assets/img/banner-contacto.jpg " alt="Banner con imagenes de nosotros - traveling turismo">
+        </div>
+        <section class="container"><!-- Sección contacto -->
+            <h1 class="text-center">Contactá con el equipo de Traveling Turismo</h1>
+            <div class="row flex-lg-row flex-md-column">
+                <div class="col-12 col-md-12 col-lg-6 d-flex flex-column ">
+                    <form action="">
+                        <div class="mb-3">
+                            <label class="nombre" for="nombre">Nombre </label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="email" for="email">Email </label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="mensaje" for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                        </div>
+
+                        <button type="submit" class="boton-enviar ">Enviar Mensaje</button>
+                    </form>
+
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 mt-3 mt-sm-3 mt-md-3 pt-3 columna-mapa">
+                    <div>
+                        <p><strong>Direccion:</strong> Paraná 3745  </p>
+                        <p><strong>Telefono:</strong> +549999999</p>
+                        <p><strong>Horario: </strong>10am a 18pm</p>
+                        <p></p>
+                    </div>
+                    <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.7914222439063!2d-58.52969592463005!3d-34.50817175245785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0ee292497e9%3A0xf9a611e58747f528!2sUnicenter%20Shopping!5e0!3m2!1ses!2sar!4v1763573750812!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                </div>
+            </div>
+            
+        </section><!-- Fin sección contacto-->
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row"><!-- Inicio row -->
+                <div class="col footer">
+                    <div class="columna">
+                        <h6>Enlaces utiles</h6>
+                        <p class="p-footer"><a href="">Politicas de devolución</a></p>
+                        <p class="p-footer"><a href="">Preguntas frecuentes</a></p>
+                        <p class="p-footer"><a href="">Términos y Condiciones</a></p>
+                    </div>
+                    <div class="columna">
+                        <h6>Contáctanos</h6>
+                        <p class="p-footer"><i class="fa-brands fa-whatsapp"></i> +549999999</p>
+                        <p class="p-footer"><i class="fa-regular fa-envelope"></i> travelingturismo@traveling.com.ar</p>
+                        <p class="p-footer"><i class="fa-solid fa-location-dot"></i> Mi ubicación</p>
+                    </div>
+                    <div class="columna">
+                        <h6>Recibi todas las novedades</h6>
+                        <div class="newsletter">
+                            <form action="#" method="post">
+                                <input type="text" placeholder="Suscribite a nuestro newsletter">
+                                
+                        <button type="submit" class="boton-news">Suscribirse</button>                                 
+                            </form>
+                        </div>
+                    </div>
+                    <div class="columna">
+                        <h6>Seguinos en redes</h6>
+                        <p class="p-footer"><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i>
+                                instagram</a></p>
+                        <p class="p-footer"><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i>
+                                facebook</a></p>
+                        <p class="p-footer"><a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i>tiktok</a>
+                        </p>
+                    </div>
+                </div>
+            </div><!-- fin row -->
+            <div class="row"><!-- Inicio row -->
+                <div class="col footer">
+                    <div class="copyright">
+                        <p>2025@Todos los derechos reservados. Gabriel Taboada</p>
+                    </div>
+                </div>
+            </div><!-- fin row -->
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Traveling - Turismo | Tu próxima aventura comienza aqui</title>
+</head>
+
+<body>
+    <!-- Header - Logo + Menu de navegacion -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#"><img src="assets/img/logo.png" alt="Logo traveling turismo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link activo" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link ext-light" href="./pages/nosotros.html">Nosotros</a>
+                        <a class="nav-link ext-light" href="./pages/destinos.html">Destinos </a>
+                        <a class="nav-link ext-light" href="./pages/promociones.html">Promociones</a>
+                        <a class="nav-link ext-light" href="./pages/contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header><!-- Fin header -->
+    <main>
+        <section class="container"><!-- Seccion slider principal -->
+            <div class="row"><!--SLIDER-->
+                <div class="col-12 d-flex flex-column align-items-center justify-content-center ">
+                    <!-- <section class="d-flex flex-column align-items-center justify-content-center"> -->
+                    <h1>Tu próxima aventura comienza con Traveling Turismo</h1>
+                    <div class="carousel slide border-warning" id="carouselExampleCaptions">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/img/aruba-slider-opacidad.jpg" class="d-block w-100"
+                                    alt="Imagen area de aruba">
+                                <div
+                                    class="carousel-caption d-none d-md-block align-items-center justify-content-center">
+                                    <h5>Aruba</h5>
+                                    <p>Un viaje a Aruba ofrece playas de arena blanca y aguas cristalinas, actividades
+                                        acuáticas como esnórquel y deportes de viento, y exploración del Parque Nacional
+                                        Arikok</p>
+                                    <a href="./pages/destinos.html" class="btn btn-outline-primary mx-auto mb-4"
+                                        id="BotonMasInfo">Mas info</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/img/roma-slider-opacidad.jpg" class="d-block w-100"
+                                    alt="Imagen de roma">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Roma</h5>
+                                    <p>Un viaje a Roma ofrece una inmersión en la historia y el arte, con visitas
+                                        imprescindibles como el Coliseo, el Foro Romano y el Panteón. También incluye el
+                                        Vaticano, la Basílica de San Pedro y la Capilla Sixtina. </p>
+                                    <a href="./pages/destinos.html" class="btn btn-outline-primary mx-auto mb-4"
+                                        id="BotonMasInfo">Mas info</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/img/peritoMoreno-slider-opacidad.jpg" class="d-block w-100"
+                                    alt="Imagen del glaciar perito moreno">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Glaciar Perito Moreno</h5>
+                                    <p>Un viaje al Glaciar Perito Moreno implica explorar sus pasarelas panorámicas para
+                                        una vista imponente del glaciar, o realizar una excursión para caminar sobre el
+                                        hielo con guías especializados. </p>
+                                    <a href="./pages/destinos.html" class="btn btn-outline-primary mx-auto mb-4"
+                                        id="BotonMasInfo">Mas info</a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-icono-anterior control-silder" aria-hidden="true">
+                                <img src="assets/img/anterior-50.png" alt="">
+                            </span>
+
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+
+                            <span class="carousel-icono-siguiente" aria-hidden="true">
+                                <img src="assets/img/siguiente-50.png" alt="">
+                            </span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+                    <!-- </section> -->
+                </div>
+
+            </div><!--Fin Row SLIDER-->
+        </section><!-- fin slider principal -->
+        <section class="container"> <!-- Seccion Destinos destacados -->
+            <div class="row">
+                <div class="col d-flex flex-column align-items-center mt-4">
+                    <div class="titulo">
+                        <h2>Destinos destacados</h2>
+                    </div>
+
+                    <p>Descubrí experiencias únicas pensadas para que vivas cada destino de una forma diferente.
+                        Desde escapadas cortas hasta grandes aventuras, elegí el viaje que mejor se adapte a vos.</p>
+                    <div class="grillaIndex"><!--inicio grilla -->
+                        <div class="columna-3">
+                            <img src="./assets/img/capadocia.jpg" alt="Foto capadocia Turquia">
+                            <p>capadocia</p>
+                            <div class="mas-info">
+                                <a href="./pages/destinos.html" class="btn btn-outline-primary mx-auto"
+                                    id="BotonMasInfo">Mas info</a>
+                            </div>
+
+                            <!-- <div class="mas-info">
+                                <a href="./pages/destinos.html">Mas info</a>
+                            </div> -->
+                        </div>
+                        <div class="columna-3">
+                            <img src="./assets/img/dubai.jpg" alt="Foto Dubai">
+                            <p>dubai</p>
+                            <div class="mas-info">
+                                <a href="./pages/destinos.html" class="btn btn-outline-primary mx-auto"
+                                    id="BotonMasInfo">Mas info</a>
+                            </div>
+                            <!-- <div class="mas-info">
+                                <a href="./pages/destinos.html">Mas info</a>
+                            </div> -->
+                        </div>
+                        <div class="columna-3">
+                            <img src="./assets/img/londres.jpg" alt="Foto londres">
+                            <p>londres</p>
+                            <div class="mas-info">
+                                <a href="./pages/destinos.html" class="btn btn-outline-primary mx-auto"
+                                    id="BotonMasInfo">Mas info</a>
+                            </div>
+                            <!-- <div class="mas-info">
+                                <a href="./pages/destinos.html">Mas info</a>
+                            </div> -->
+                        </div>
+                        <div class="columna-3">
+                            <img src="./assets/img/praga.jpg" alt="Foto de praga">
+                            <p>praga</p>
+                            <div class="mas-info">
+                                <a href="./pages/destinos.html" class="btn btn-outline-primary mx-auto"
+                                    id="BotonMasInfo">Mas info</a>
+                            </div>
+                            <!-- <div class="mas-info">
+                                <a href="./pages/destinos.html">Mas info</a>
+                            </div> -->
+                        </div>
+                        <div class="columna-3">
+                            <img src="./assets/img/paris.jpg" alt="Foto de paris">
+                            <p>paris</p>
+                            <div class="mas-info">
+                                <a href="./pages/destinos.html" class="btn btn-outline-primary mx-auto"
+                                    id="BotonMasInfo">Mas info</a>
+                            </div>
+                            <!-- <div class="mas-info">
+                                <a href="./pages/destinos.html">Mas info</a>
+                            </div> -->
+                        </div>
+                        <div class="columna-3">
+                            <img src="./assets/img/cancun.jpg" alt="Foto cancun">
+                            <p>cancun</p>
+                            <div class="mas-info">
+                                <a href="./pages/destinos.html" class="btn btn-outline-primary mx-auto"
+                                    id="BotonMasInfo">Mas info</a>
+                            </div>
+                            <!-- <div class="mas-info">
+                                <a href="./pages/destinos.html">Mas info</a>
+                            </div> -->
+                        </div>
+                    </div><!--fin grilla -->
+
+                </div><!-- Fin col-->
+            </div><!-- Fin row-->
+        </section><!-- Seccion Destinos destacados con display grid-->
+        <section class="container promociones-destacadas"><!-- Promociones grilla bootstrap-->
+            <div class="titulo">
+                <h2>Promociones destacadas</h2>
+            </div>
+
+            <div class="row row-gap-3">
+                <div class="columna-Promociones col-12 col-md-6 col-lg-3  d-flex flex-column">
+                    <p>federacion</p>
+                    <img src="assets/img/escapada-federacion.jpg" alt="Escapada a federacion entre ríos">
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero explicabo culpa doloribus
+                        tempora nisi voluptatibus nobis quia corrupti aliquid quae.</p> -->
+                    <div class="mas-info">
+                        <a href="./pages/promociones.html" class="btn btn-outline-primary mx-auto" id="BotonMasInfo">Mas
+                            info</a>
+                    </div>
+                    <!-- <div class="mas-info">
+                        <a href="./pages/destinos.html">Mas info</a>
+                    </div> -->
+                </div>
+                <div class="columna-Promociones col-12 col-md-6 col-lg-3 col-gap-3 d-flex flex-column">
+                    <p>antartida</p>
+                    <img src="assets/img/crucero-antartida.jpg" alt="crucero por la antartida">
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero explicabo culpa doloribus
+                        tempora nisi voluptatibus nobis quia corrupti aliquid quae.</p> -->
+                    <div class="mas-info">
+                        <a href="./pages/promociones.html" class="btn btn-outline-primary mx-auto" id="BotonMasInfo">Mas
+                            info</a>
+                    </div>
+                    <!-- <div class="mas-info">
+                        <a href="./pages/destinos.html">Mas info</a>
+                    </div> -->
+                </div>
+                <div class="columna-Promociones col-12 col-md-6 col-lg-3 d-flex flex-column">
+                    <p>ushuaia</p>
+                    
+                    <img src="assets/img/crucero-ushuaia.jpg" alt="crcuero por ushuaia">
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero explicabo culpa doloribus
+                        tempora nisi voluptatibus nobis quia corrupti aliquid quae.</p> -->
+                    <div class="mas-info">
+                        <a href="./pages/promociones.html" class="btn btn-outline-primary mx-auto" id="BotonMasInfo">Mas
+                            info</a>
+                    </div>
+                    <!-- <div class="mas-info">
+                        <a href="./pages/destinos.html">Mas info</a>
+                    </div> -->
+                </div>
+                <div class="columna-Promociones col-12 col-md-6 col-lg-3 col-gap-3 d-flex flex-column">
+                    <p>colonia</p>
+                    <img src="assets/img/escapada-colonia.jpg" alt="escapada a colonia">
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero explicabo culpa doloribus
+                        tempora nisi voluptatibus nobis quia corrupti aliquid quae.</p> -->
+                    <div class="mas-info">
+                        <a href="./pages/promociones.html" class="btn btn-outline-primary mx-auto" id="BotonMasInfo">Mas
+                            info</a>
+                    </div>
+                    <!-- <div class="mas-info">
+                        <a href="./pages/destinos.html">Mas info</a>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row"><!-- Inicio row -->
+                <div class="col footer">
+                    <div class="columna">
+                        <h6>Enlaces utiles</h6>
+                        <p class="p-footer"><a href="">Politicas de devolución</a></p>
+                        <p class="p-footer"><a href="">Preguntas frecuentes</a></p>
+                        <p class="p-footer"><a href="">Términos y Condiciones</a></p>
+                    </div>
+                    <div class="columna">
+                        <h6>Contáctanos</h6>
+                        <p class="p-footer"><i class="fa-brands fa-whatsapp"></i> +549999999</p>
+                        <p class="p-footer"><i class="fa-regular fa-envelope"></i> travelingturismo@traveling.com.ar</p>
+                        <p class="p-footer"><i class="fa-solid fa-location-dot"></i> Mi ubicación</p>
+                    </div>
+                    <div class="columna">
+                        <h6>Recibi todas las novedades</h6>
+                        <div class="newsletter">
+                            <form action="#" method="post">
+                                <input type="text" placeholder="Suscribite a nuestro newsletter">
+                                <button type="submit" class="boton-news">Suscribirse</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="columna">
+                        <h6>Seguinos en redes</h6>
+                        <p class="p-footer"><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i>
+                                instagram</a></p>
+                        <p class="p-footer"><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i>
+                                facebook</a></p>
+                        <p class="p-footer"><a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i>tiktok</a>
+                        </p>
+                    </div>
+                </div>
+            </div><!-- fin row -->
+            <div class="row"><!-- Inicio row -->
+                <div class="col footer">
+                    <div class="copyright">
+                        <p>2025@Todos los derechos reservados. Gabriel Taboada</p>
+                    </div>
+                </div>
+            </div><!-- fin row -->
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
