@@ -1,42 +1,44 @@
 /* HEADER */
-header{
+header {
     padding: 20px;
     background-color: #f4eaff;
-    a{
+    
+    a {
         text-decoration: none;
         text-transform: uppercase;
     }
+    
     .navbar-brand img {
         width: 150px;
     }
 }
-.navbar-nav{
-    .nav-link{
+
+.navbar-nav {
+    .nav-link {
         font-weight: 600;
         letter-spacing: 1px;
         font-size: 16px;
+        
         &:hover {
             color: #7c2872;
         }
     }
+    
     .activo {
-            color: #7c2872;
+        color: #7c2872;
     }    
 } 
-.navbar-toggler:focus {
-    box-shadow: 0 0 0 0.2rem #7c2872;
-    border-color:#4d094529
 
-}
-
-.navbar-toggler{
-    border: 1px solid #7c2872;
+.navbar-toggler {
+    /* border: 1px solid #7c2872; */  // Comentado como en tu original
+    
     &:focus {
         box-shadow: 0 0 0 0.2rem #7c2872;
-        border-color:#4d094529
+        border-color: #4d094529;
     }
 }
-.navbar-toggler-icon{
+
+.navbar-toggler-icon {
     background-image: url(../img/menu.png);
 }
 /* FIN HEADER */
