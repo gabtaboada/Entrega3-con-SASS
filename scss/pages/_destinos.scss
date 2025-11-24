@@ -1,46 +1,41 @@
 /* DESTINOS */
-.destinos .grilla-destinos {
-    display: grid;
-    grid-template-rows: repeat(1, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    /* border: 2px solid black; */
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+
+.destinos{
+    .grilla-destinos {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        /* border: 2px solid black; */
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        img {
+            border-radius: 10px;
+            width: 100%;
+        }
+        .caja {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p {
+                font-family: "Montserrat", sans-serif;
+                text-transform: uppercase;
+                font-weight: 400;
+            }
+        }
+    }
+    h5 {
+        font-family: "Montserrat", sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    p {
+        font-family: "Montserrat", sans-serif;
+    }
 }
 
-.destinos .grilla-destinos img {
-    border-radius: 10px;
-    width: 100%;
-}
 
-.destinos .grilla-destinos .caja {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.destinos .grilla-destinos .caja p{
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
-}
-.destinos h5 {
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-}
 
-.destinos p {
-    font-family: "Montserrat", sans-serif;
-}
-.carousel-control-prev-icon{
-    color: #502899;
-}
-.carousel-icono-anterior img{
-    width: 40px;
-}
-.carousel-icono-siguiente img{
-    width: 40px;
-}
+/* FIN DESTINO */
