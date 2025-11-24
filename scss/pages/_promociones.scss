@@ -1,0 +1,47 @@
+/* PROMOCIONES */
+.columna-2 {
+    margin: 20px;
+}
+.card .fondo-opacidad{
+    background-color: #1313136d;
+}
+section .grilla-promociones{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    grid-template-rows: repeat(1,1fr);
+    /* height: 100vh; */
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    
+}
+section .grilla-promociones div{
+    position: relative;
+    /* border:  2px solid black; */
+    display: flex;
+    justify-content:center;
+    
+}
+section .grilla-promociones img{
+    border-radius: 10px;
+    width: 100%;
+}
+section .grilla-promociones div p{
+    width: auto;
+    position: absolute;
+    /* top:calc(50% - 19px); */
+    top: 20px;
+    /* left: calc(50% - 46px); */
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    /* z-index: 2;
+    opacity: 0; */
+}
+section .grilla-promociones div .mas-info{
+    position: absolute;
+    bottom: 20px;
+    /* top:calc(50% - 19px);
+    left: calc(50% - 46px); */
+}
+/* FIN PROMOCIONES */

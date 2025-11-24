@@ -1,0 +1,119 @@
+/* CONTACTO */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+form .nombre:after {
+    content: "*(requerido)";
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(255, 0, 0, 0.632);
+}
+
+form .email:after {
+    content: "*(requerido)";
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(255, 0, 0, 0.632);
+}
+form .mensaje:after {
+    content: "*(requerido)";
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(255, 0, 0, 0.632);
+}
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea:focus {
+    outline: 2px solid #502899;
+    outline-offset: 1px;
+    border-color: #502899;
+}
+
+input:focus {
+    outline: 2px solid #502899;
+    outline-offset: 1px;
+    border-color: #502899;
+}
+
+input[aria-invalid="true"] {
+    border-color: #dc3545;
+}
+
+.boton-enviar {
+    width: 100%;
+    padding: 12px 35px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #502899;
+    background: transparent;
+    border: 2px solid #502899;
+    border-radius: 5px;
+}
+
+.boton-enviar:hover {
+    background: #502899;
+    color: #fff;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 300px;
+}
+
+/* .mapa{
+    border: 2px solid black;
+    width: 100%;
+} */
+/* BORRAR ***/
+.datosContacto {
+    margin: 20px;
+}
+
+.datosContacto p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.datosContacto h3 {
+    text-transform: uppercase;
+}
+
+.formulario {
+    background-color: #cbb3f3;
+    width: 400px;
+    margin-left: 20px;
+}
+
+.formulario input {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+}
+
+.formulario-label {
+    margin: 10px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.formulario textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+/* FIN CONTACTO */
